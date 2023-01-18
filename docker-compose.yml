@@ -37,7 +37,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /app
+      device: ./
       o: bind
 
 networks:
