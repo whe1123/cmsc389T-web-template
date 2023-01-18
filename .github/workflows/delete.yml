@@ -1,0 +1,19 @@
+name: delete workflow
+on: 
+  workflow_dispatch:
+
+jobs:
+  delete:
+    name: Delete
+    runs-on: ubuntu-latest
+    steps:
+      - name: delete
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }} 
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            unalias rm
+            rm -rf cmsc389T-web-template
