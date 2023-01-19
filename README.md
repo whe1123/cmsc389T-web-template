@@ -3,6 +3,7 @@
 Terpconnect Site Link:
 https://terpconnect.umd.edu/~whe/cmsc389T-web-template/
 or
+
 https://terpconnect.umd.edu/~whe/cmsc389T-web-template/index
 
 GitHub Pages Site Link:
